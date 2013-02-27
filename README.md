@@ -7,6 +7,20 @@ I wrote it to download markdown from [Gingko](http://www.gingkoapp.com/) and
 convert it to an [impress.js](https://github.com/bartaz/impress.js) slideshow, via the following command:
 
 ```bash
+~/url2mdpress/url2mdpress.rb 
+  --remove-horizontal-rules --slide-per-header \
+  --move-mdpress-output \
+  --cookie connect.sid=s%3ALE7Zi80AZijMX5hRuipZBein.LKJ1qADR2UqcRpxEl6JXRCgU8UqSGEYnlkFl4aP%2Fj0U \
+  --url https://beta.gingkoapp.com/api/exports/2b8eba0efe143b2452000001.txt \
+  -- -s evolvingweb
+```
+* Input:: https://beta.gingkoapp.com/2b8eba0efe143b2452000001
+* Markdown:: https://raw.github.com/dergachev/vagrant-chef-guide/gh-pages/vagrant-chef-tutorial/presentation.md
+* Output: http://dergachev.github.com/vagrant-chef-guide/vagrant-chef-tutorial/
+
+## Usage
+
+```bash
 ~/url2mdpress/url2mdpress.rb -h
 
 Usage:
@@ -22,21 +36,6 @@ where [options] are:
   --remove-horizontal-rules, -r:   Remove all existing horizontal rules (---) in the markdown.
          --slide-per-header, -l:   Prepend horizontal rules (---) for each header (## Slide Title).
                      --help, -h:   Show this message
-```
-
-* Input:: https://beta.gingkoapp.com/2b8eba0efe143b2452000001
-* Markdown:: https://raw.github.com/dergachev/vagrant-chef-guide/gh-pages/vagrant-chef-tutorial/presentation.md
-* Output: http://dergachev.github.com/vagrant-chef-guide/vagrant-chef-tutorial/
-
-## Usage
-
-```bash
-~/url2mdpress/url2mdpress.rb 
-  --remove-horizontal-rules --slide-per-header \
-  --move-mdpress-output \
-  --cookie connect.sid=s%3ALE7Zi80AZijMX5hRuipZBein.LKJ1qADR2UqcRpxEl6JXRCgU8UqSGEYnlkFl4aP%2Fj0U \
-  --url https://beta.gingkoapp.com/api/exports/2b8eba0efe143b2452000001.txt \
-  -- -s evolvingweb
 ```
 
 ## Resources:
