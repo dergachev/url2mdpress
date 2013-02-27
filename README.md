@@ -24,9 +24,9 @@ where [options] are:
                      --help, -h:   Show this message
 ```
 
-*Input:*: https://beta.gingkoapp.com/2b8eba0efe143b2452000001
-*Markdown:*: https://raw.github.com/dergachev/vagrant-chef-guide/gh-pages/vagrant-chef-tutorial/presentation.md
-*Output*: http://dergachev.github.com/vagrant-chef-guide/vagrant-chef-tutorial/
+* Input:: https://beta.gingkoapp.com/2b8eba0efe143b2452000001
+* Markdown:: https://raw.github.com/dergachev/vagrant-chef-guide/gh-pages/vagrant-chef-tutorial/presentation.md
+* Output: http://dergachev.github.com/vagrant-chef-guide/vagrant-chef-tutorial/
 
 ## Usage
 
