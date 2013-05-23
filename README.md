@@ -81,3 +81,4 @@ gem install mdpress-0.0.12.gem
 * https://github.com/jgm/pandoc/wiki/Using-pandoc-to-produce-reveal.js-slides
 * http://johnmacfarlane.net/pandoc/README.html
 * http://brianmcmurray.com/blog/2012/02/07/hekyll-for-awesome-easy-presentations/
+* [GistDeck - simple presentations with Gist](https://gistdeck.herokuapp.com/)
